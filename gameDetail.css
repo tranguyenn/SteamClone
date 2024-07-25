@@ -1,0 +1,63 @@
+main{
+    background-color: pink;
+    width: 65%;
+    height: fit-content;
+    padding: auto;
+ margin: auto;
+    margin-top: 5vh;
+    padding-bottom: 30px;
+  background: #171d25;
+  box-shadow: 2px 3px 17px 7px rgba(104,152,213,0.15);
+  
+}
+main section{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+#game-name{
+    font-size: 26px;
+}
+#game-price{
+    font-size: 20px;
+}
+.game-description{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    
+
+}
+.game-image{
+    width: 58%;
+}
+.game-image img{
+    width: 100%;
+}
+.game-info{
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#description{
+    text-align: justify;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.game-genres-list{
+    display: flex;
+    column-gap: 20px;
+    justify-content: flex-start;
+}
+
+.game-genres-list>div{
+    color: #67c1f5;
+    background-color: rgba(103, 193, 245, 0.2);
+    padding: 6px;
+}
+
+
+

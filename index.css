@@ -1,0 +1,170 @@
+main {
+    display: flex;
+    margin-top: 4vh;
+}
+
+#side-bar {
+    background-color: #171d25;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+#sidebar a {
+    font-size: 15px;
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#search-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #a4b3c4;
+    border-radius: 2px;
+}
+
+#search-container .form {
+    display: flex;
+    flex-direction: column;
+}
+
+#search-container .form label {
+    margin-bottom: 15px;
+}
+
+#search-container .form input {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 2px;
+    color: #ebeef0;
+    background: #316282;
+}
+
+#search-container .form button {
+    font-size: 16px;
+    width: 30%;
+    align-self: flex-end;
+    border-radius: 2px;
+    border: none;
+    font-weight: 500;
+    background: #316282;
+    color: #ebeef0;
+    padding: 5px;
+}
+
+#categoty-list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#categoty-list a {
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #316282;
+}
+#categoty-list a:link{
+    color: #316282;
+}
+#categoty-list a:hover{
+    color: #ebeef0;
+    border-bottom:1px solid #ebeef0;
+}
+#categoty-list a:active {
+    color: #ebeef0;
+    border-bottom:1px solid #ebeef0;
+}
+
+
+#game-list {
+    width: 75%;
+
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+
+
+
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start ;
+    column-gap: 1.25%;
+    row-gap: 30px;
+    width: 100%;
+    
+}
+.card {
+    width: 19%;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px -6px rgba(0, 0, 0, .1);
+    background: url("https://store.akamai.steamstatic.com/public/images/v6/home/background_spotlight.jpg");
+    background-size: cover;
+    cursor: pointer;
+    
+}
+.card .front-card .work-image {
+    height: 100px;
+    width: 100%;
+}
+#game-infor-price{
+   
+}
+.address-list {
+    display: flex;
+height: fit-content;
+}
+
+p.work-name {
+    margin: 5px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 2px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.work-name{
+    height: 25px;
+}
+.address-list{
+    line-height: 1px;
+}
+.address-list>a>p {
+    margin-right: 10px;
+}
+#paging-games,#paging-category{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination{
+    display: inline-block;
+    width: inherit;
+    
+  
+}
+.pagination a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+h1.category-game-list-title{
+    text-transform: capitalize;
+}

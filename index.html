@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="right-nav">
+          <a href="#Home">
+           
+            <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" width="176" height="44" alt="Link to the Steam Homepage">
+          </a>
+        </div>
+        <div class="left-nav">
+          <a href="/index.html">Home</a>
+          <a href="#https://steamcommunity.com">Community</a>
+          <a href="https://store.steampowered.com/about/">About</a>
+          <a href="#https://help.steampowered.com/en/">Support</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="side-bar" >
+        <div id="search-container">
+         <div class="form" > 
+            <label for="search-bar">Search for game</label>
+            <input
+              type="text"
+              name="search"
+              id="search-bar"
+              placeholder="Search..."
+              minlength="2"
+            />
+            <button id="btn-search" type="submit">Search</button>
+          </div>
+        </div>
+        <div id="category-container">
+          <div id="categoty-list">
+              <a href="#">action1</a>
+              <a href="#">action2</a>
+              <a href="#">action3</a>
+              <a href="#">action4</a>
+              <a href="#">action5</a>
+              <a href="#">action6</a>
+          </div>
+          
+        </div>
+      </section>
+      <section id="game-list">
+        <div class="game-item">
+          <div id="featured-game-list" >
+            <h1 class="featured-game-list-title">Featured Games</h1>
+            <div class="featured-game-list-item card-container">
+             
+            </div>
+          </div>
+          <div id="category-game-list">
+            <h1 class="category-game-list-title">Category results</h1>
+            <div class="card-container">
+         
+              
+          </div>
+          </div>
+          <!-- <div id="search-game-list">
+            <h1 class="search-game-list-title">Search results</h1>
+          </div>
+        </div> -->
+
+        <div id="paging-games" class="paging" >
+          <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
+          </div>
+
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="/indexScripts.js">
+
+    </script>
+  </body>
+</html>
